@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="bg-img">
+  <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fa fa-bars"></i>
+    </span>
+    <img class="logo" src="img/logo.png" height="45px", width="auto">
+    <img class="logo2" src="img/logo2.png" height="30px", width="auto">
+    <ul class="main-nav" id="menu">
+        <li>
+            <a href="#" class="nav-links">Home</a>
+        </li>
+        <li>
+            <a href="#" class="nav-links">About</a>
+        </li>
+        <li>
+            <a href="#" class="nav-links">Contact</a>
+        </li>
+        <li>
+            <a href="#" class="nav-links"><button class="btn">Say Hello</button></a>
+        </li>
+    </ul>
+    <div class="button">
+    <a href=""><button class="btn2">Our Work <i class="arrow right"></i></button></a>
+  </div>
+</nav>
+<img class="ri" src="img/wonderful.png">
+</div>
+<div class="aboutme">
+  <h2>About Me</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+     dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+    </p>
+</div>
+<h2>Our Work</h2>
+
+<main>
+  <figure>
+    <img class="pic1" src="img/pic1.png">
+  </figure>
+  
+  <figure>
+    <img src="img/pic2.png">
+  </figure>
+  
+  <figure>
+    <img class="pic3" src="img/pic3.png">
+    <!-- <div class="text">
+    <h4>Fly High</h4>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, <br>
+      sed diam nonumy eirmod tempor invidunt ut labore et dolore <br>
+      magna aliquyam erat, sed diam voluptua. At vero <br>
+      eos et accusam et justo</p>
+    </div> -->
+  </figure>
+  
+  <figure>
+    <img class="pic4" src="img/pic4.png">
+  </figure>
+  
+  <figure>
+    <img class="pic5" src="img/pic5.png">
+  </figure>
+  
+</main>
+
+<div class="section">
+  <h2>Testimonial</h2>
+  <img class="profile" src="img/profile.png">
+  <h3>Carolyn Clark</h3>
+  
+  <p><img class="quote1" src="img/quote2.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+  ut labore et dolore magna aliqua. Orci a scelerisque purus semper eget duis at tellus. Placerat 
+  orci nulla pellentesque dignissim enim sit amet venenatis.<img class="quote2" src="img/quote2.png"></p>
+  
+  
+  <img class="dot" src="img/dot.png">
+</div>
+
+<div class="footer">
+  <ul class="list1">
+    <li class="col1"><img class="logo3" src="img/logo3.png"><br><img class="snowmt" src="img/snowmt.png"></li>
+    <li class="col2">Location <br><div class="blurb"> Fusce at nisi eget dolor <br> thoncus facilisis mauris</div></li>
+    <li class="col3">Email<br><div class="blurb">jessica.lee@mail.com</div></li>
+    <li class="col4">Phone<br><div class="blurb">(859)749-1380</div></li>
+  </ul>
+</div>
+<script>
+  let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+  mainNav.classList.toggle('active');
+});
+</script>
+</body>
+</html>
